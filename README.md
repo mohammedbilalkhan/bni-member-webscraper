@@ -38,6 +38,7 @@ python scraper_bni_members.py
 
 The script will launch a browser, navigate to the BNI website, and start scraping member details for each specified region. The information will be saved in a CSV file named '{logpath}/{region}/{chaptername}_MemberDetails.csv'.
 
+* Extra: If you want to scrape all bni region names in india and america then simply use get_region.py
 
 ## Acknowledgments
 
