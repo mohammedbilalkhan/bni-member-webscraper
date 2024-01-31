@@ -25,7 +25,7 @@ Download the appropriate web driver for your browser and set the path in the scr
 
 ```bash
 git clone https://github.com/mohammedbilalkhan10/bni-members-webscraper.git
-cd webscraping-bni-members
+cd bni-members-webscraper
 ```
 
 2. Edit the `regions.csv` file with the specific region names under the "Region" column.
@@ -33,7 +33,7 @@ cd webscraping-bni-members
 3. Run the script:
 
 ```bash
-python scrape_bni_members.py
+python scraper_bni_members.py
 ```
 
 The script will launch a browser, navigate to the BNI website, and start scraping member details for each specified region. The information will be saved in a CSV file named '{logpath}/{region}/{chaptername}_MemberDetails.csv'.
